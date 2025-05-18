@@ -44,7 +44,7 @@ export default [
       'react/prop-types': [0],
       'indent': ['error', 'tab'],
       'react/jsx-no-target-blank': 'error',
-      'react/react-in-jsx-scope': 'off'
+      'react/react-in-jsx-scope': 'off',
     }
   }
 ];
