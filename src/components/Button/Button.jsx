@@ -1,19 +1,11 @@
 import './Button.css';
 
-function Button({text}) {
-
-	// const [text, setText]=useState('Сохранить');
-
-	// const clicked = ()=>{
-
-	// 	setText( t => (t + '!'));
-	// 	console.log(text);
-
-	// };
+function Button({text, onClick}) {
 
 	return (
-		<button  className='button accent'>{text}</button>
+		<button  className='button accent' onClick={onClick}>{text}</button>
 	);
 }
 
 export default Button;
+

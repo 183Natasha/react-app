@@ -24,7 +24,7 @@ function JournalForm() {
 			<input type="date" name="date" id="" />
 			<input type="text" name="tag" value ={inputData} onChange={inputChange} />
 			<textarea name="post" id="" cols={30} rows={10}></textarea>
-			<Button text = 'Сохранить'></Button>
+			<Button text = 'Сохранить' onClick={()=> {console.log('Нажали');}}></Button>
 		</form>
 	);
 }
