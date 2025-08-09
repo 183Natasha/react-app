@@ -29,7 +29,7 @@ function JournalForm({ onSubmit }) {
 		if (isFormReadyToSubmit){
 			onSubmit(values);
 		}
-	}, [isFormReadyToSubmit, onSubmit, values]);
+	}, [isFormReadyToSubmit]);
 
 	const addJournalItem = (e) => {
 		e.preventDefault();
